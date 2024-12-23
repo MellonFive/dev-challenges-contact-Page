@@ -2,7 +2,6 @@ body {
   font-family: "Be Vietnam Pro", sans-serif;
 
   display: flex;
-  height: 100vh;
 
   background-image: url(../img/background@3x.png);
   background-repeat: no-repeat;
@@ -10,9 +9,9 @@ body {
 }
 
 main {
-  max-width: 32rem;
+  max-width: 30rem;
 
-  margin: auto;
+  margin: 3rem auto;
 }
 
 header {
@@ -24,15 +23,15 @@ header > .logo {
 }
 
 header > .introduction {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 
   text-align: center;
 }
 
 header > .introduction > .description {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   line-height: 2rem;
 }
@@ -76,7 +75,7 @@ header > .introduction > .description {
   padding: 2rem;
 
   font-family: inherit;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 
   border-radius: inherit;
   border: none;
