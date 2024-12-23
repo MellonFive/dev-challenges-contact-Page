@@ -14,21 +14,21 @@ main {
   margin: 3rem auto;
 }
 
-header {
+.container > header {
   color: var(--white);
 }
 
-header > .logo {
+.container > header > .logo {
   width: 8rem;
 }
 
-header > .introduction {
+.container > header > .introduction {
   margin-top: 1.5rem;
 
   text-align: center;
 }
 
-header > .introduction > .description {
+.container > header > .introduction > .description {
   font-size: 1.2rem;
 
   margin-top: 1rem;
