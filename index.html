@@ -40,26 +40,42 @@
         </header>
 
         <form>
-          <legend class="name">Name</legend>
-          <input class="information" type="text" placeholder="Text your name" />
+          <div class="name-email-company-employers">
+            <div class="name-information">
+              <legend class="name">Name</legend>
+              <input class="information" type="text" placeholder="Text your name" />
+            </div>
 
-          <legend class="name">Company Email</legend>
-          <input class="information" type="email" placeholder="Text your E-mail" />
+            <div class="company-email">
+              <legend class="name">Company Email</legend>
+              <input
+                class="information"
+                type="email"
+                placeholder="Text your E-mail"
+              />
+            </div>
 
-          <legend class="name">Company Size</legend>
-          <select class="choose-information" name="tamanhoempresa">
-            <option value="1">50-100 employers</option>
-          </select>
+            <div class="company-size">
+              <legend class="name">Company Size</legend>
+              <select class="choose-information" name="tamanhoempresa">
+                <option value="1">50-100 employers</option>
+              </select>
+            </div>
 
-          <legend class="name">Subject</legend>
-          <select class="choose-information" name="assunto">
-            <option value="1">Building Landing Pages</option>
-          </select>
+            <div class="subject">
+              <legend class="name">Subject</legend>
+              <select class="choose-information" name="assunto">
+                <option value="1">Building Landing Pages</option>
+              </select>
+            </div>
+          </div>
 
-          <legend class="name">Message</legend>
+          <legend class="name-message">Message</legend>
           <textarea class="box-text" maxlength="350" placeholder="Feel free to text here. Max caractere 350"></textarea>
 
-          <button class="information -btn-submit" type="submit">Contact Sales</button>
+          <button class="information -btn-submit" type="submit">
+            Contact Sales
+          </button>
         </form>
       </div>
     </main>

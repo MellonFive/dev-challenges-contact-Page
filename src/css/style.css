@@ -49,7 +49,22 @@ main {
   box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
 }
 
-.container > form > .name {
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > form > .name-email-company-employers > .name-information,
+.container > form > .name-email-company-employers > .company-email,
+.container > form > .name-email-company-employers > .company-size {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > form > .name-email-company-employers > .name-information .name,
+.container > form > .name-email-company-employers > .company-email .name,
+.container > form > .name-email-company-employers > .company-size .name,
+.container > form > .name-email-company-employers > .subject .name {
   color: var(--white);
 
   font-size: 1.1rem;
@@ -57,18 +72,32 @@ main {
   margin-bottom: .5rem;
 }
 
-.container > form > .information, 
-.container > form > .choose-information {
+.container > form > .name-email-company-employers .name-information .information, 
+.container > form > .name-email-company-employers .company-email .information,
+.container > form > .name-email-company-employers .company-size .choose-information,
+.container > form > .name-email-company-employers .subject .choose-information {
   padding: 1.5rem 1rem;
   margin-bottom: 1rem;
 
-  border-radius: inherit;
+  border-radius: 1rem;
   border: none;
 
   outline: none;
 }
 
-.container > form > .box-text {
+.container > form > .name-email-company-employers > .subject > .choose-information {
+  width: 100%;
+}
+
+.container > form > .name-message {
+  color: var(--white);
+
+  font-size: 1.1rem;
+
+  margin-bottom: .5rem;
+}
+
+.container > form .box-text {
   width: 100%;
   height: 15rem;
 
@@ -83,12 +112,16 @@ main {
   outline: none;
 }
 
-.container > form > .information.-btn-submit {
+.container > form .information.-btn-submit {
   margin-top: 2rem;
+  padding: 1.5rem 1rem;
 
   font-size: 1.3rem;
   font-family: inherit;
   font-weight: 700;
+
+  border-radius: 1rem;
+  border: none;
 
   color: var(--strong-purple);
 
@@ -97,7 +130,7 @@ main {
   transition: .2s;
 }
 
-.container > form > .information.-btn-submit:hover {
+.container > form .information.-btn-submit:hover {
   background-color: var(--strong-purple);
   color: var(--white);
 }
