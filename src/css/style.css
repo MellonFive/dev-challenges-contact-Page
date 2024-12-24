@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  height: 100vh;
+  height: 100%;
 }
 
 main {
@@ -99,8 +99,7 @@ main {
   margin-bottom: .5rem;
 }
 
-.container > form .box-text {
-  width: 100%;
+.container > form > .box-text {
   height: 15rem;
 
   padding: 2rem;
@@ -111,7 +110,7 @@ main {
   border-radius: inherit;
   border: none;
 
-  outline: none;
+  resize: none;
 }
 
 .container > form .information.-btn-submit {
