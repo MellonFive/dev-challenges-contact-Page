@@ -26,7 +26,7 @@
 
 @media (min-width: 641px) {
   main {
-    max-width: 60%;
+    max-width: 50%;
   }
 
   .container > header > .introduction > .title {
