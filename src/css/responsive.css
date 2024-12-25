@@ -38,25 +38,25 @@
   }
 
   main {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   .container > header > .introduction > .title {
-    font-size: 5rem;
+    font-size: 4.5rem;
 
     margin: auto;
     
-    width: 70%;
+    width: 80%;
   }
 
   .container > header > .introduction > .description {
-    font-size: 2rem;
+    font-size: 2.2rem;
 
     margin: 2rem auto;
 
     line-height: 3rem;
 
-    width: 60%;
+    width: 80%;
   }
 
   .container > form .information.-btn-submit {
