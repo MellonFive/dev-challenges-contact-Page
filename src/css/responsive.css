@@ -1,4 +1,10 @@
 @media (min-width: 640px) {
+  body {
+    background-image: url(../img/background@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   main {
     max-width: 70%;
   }
@@ -25,13 +31,21 @@
 }
 
 @media (min-width: 641px) {
+  body {
+    background-image: url(../img/background@3x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   main {
     max-width: 50%;
   }
 
   .container > header > .introduction > .title {
     font-size: 5rem;
+
     margin: auto;
+    
     width: 70%;
   }
 
@@ -40,7 +54,8 @@
     margin: 2rem auto;
 
     line-height: 3rem;
-    width: 50%;
+
+    width: 60%;
   }
 
   .container > form .information.-btn-submit {
