@@ -35,8 +35,6 @@ main {
 .container > header > .introduction > .description {
   font-size: 1.2rem;
 
-  margin-top: 1rem;
-
   line-height: 2rem;
 }
 
