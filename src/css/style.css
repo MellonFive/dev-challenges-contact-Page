@@ -13,7 +13,7 @@ body * {
 }
 
 main {
-  max-width: 30rem; /* Colocar isso no .container */
+  max-width: 30rem; /* Colocar isso no .container, na parte responsiva. */
 
   margin: 3rem auto;
 }
