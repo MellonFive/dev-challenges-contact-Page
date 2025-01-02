@@ -13,10 +13,14 @@ body * {
 }
 
 main {
-  max-width: 30rem;
+  max-width: 30rem; /* Colocar isso no .container */
 
   margin: 3rem auto;
 }
+
+/* .container {
+  Estilizar de acordo com o vídeo da dev em dobro sobre como criar projetos sem travar.
+} */
 
 .container > header {
   color: var(--white);
