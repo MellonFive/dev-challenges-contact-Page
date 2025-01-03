@@ -23,11 +23,12 @@
 
   .container > form {
     padding: 2rem 3rem;
+    width: 100%;
   }
 
   .container > form > .name-email-company-employers {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 48%;
     gap: 1rem;
   }
 }

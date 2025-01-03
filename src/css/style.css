@@ -17,16 +17,17 @@ main {
 }
 
 .container {
-  margin: 3rem auto;
   max-width: 30rem;
+
+  margin: 3rem auto;
 }
 
 .container > header {
   color: var(--white);
 }
 
-.container > header > .logo {
-  width: 8rem;
+.container > header > .div-image > .logo {
+  width: 10rem;
 }
 
 .container > header > .introduction {
@@ -48,6 +49,8 @@ main {
 }
 
 .container > form {
+  width: 100%;
+
   border-radius: 1rem;
 
   margin-top: 2rem;
