@@ -19,7 +19,7 @@ main {
 .container {
   max-width: 30rem;
 
-  margin: 3rem auto;
+  margin: auto;
 }
 
 .container > header {
@@ -53,18 +53,13 @@ main {
 
   border-radius: 1rem;
 
-  margin-top: 2rem;
-  padding: 1.5rem 2rem;
+  margin-top: 1rem;
+  padding: 2rem;
 
   display: flex;
   flex-direction: column;
 
   box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
-}
-
-.container > form {
-  display: flex;
-  flex-direction: column;
 }
 
 .container > form > .name-email-company-employers > .name-information,
@@ -74,10 +69,10 @@ main {
   flex-direction: column;
 }
 
-.container > form > .name-email-company-employers > .name-information .name,
-.container > form > .name-email-company-employers > .company-email .name,
-.container > form > .name-email-company-employers > .company-size .name,
-.container > form > .name-email-company-employers > .subject .name {
+.container > form > .name-email-company-employers > .name-information > .name,
+.container > form > .name-email-company-employers > .company-email > .name,
+.container > form > .name-email-company-employers > .company-size > .name,
+.container > form > .name-email-company-employers > .subject > .name {
   color: var(--white);
 
   font-size: 1.1rem;
@@ -85,10 +80,10 @@ main {
   margin-bottom: .5rem;
 }
 
-.container > form > .name-email-company-employers .name-information .information, 
-.container > form > .name-email-company-employers .company-email .information,
-.container > form > .name-email-company-employers .company-size .choose-information,
-.container > form > .name-email-company-employers .subject .choose-information {
+.container > form > .name-email-company-employers > .name-information > .information, 
+.container > form > .name-email-company-employers > .company-email > .information,
+.container > form > .name-email-company-employers > .company-size > .choose-information,
+.container > form > .name-email-company-employers > .subject > .choose-information {
   padding: 1.5rem 1rem;
   margin-bottom: 1rem;
 
@@ -128,7 +123,7 @@ main {
   margin-top: 2rem;
   padding: 1.5rem 1rem;
 
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-family: inherit;
   font-weight: 700;
 
