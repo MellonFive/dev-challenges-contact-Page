@@ -4,14 +4,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  main {
+  
+  .container {
     max-width: 70%;
   }
 
   .container > header > .introduction > .title {
     font-size: 5rem;
-    
+
     margin: auto;
   } 
 
@@ -27,7 +27,7 @@
 
   .container > form > .name-email-company-employers {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     gap: 1rem;
   }
 }
@@ -40,7 +40,7 @@
   }
 
   main {
-    max-width: 40%;
+    max-width: 60%;
   }
 
   .container > header > .introduction > .title {
