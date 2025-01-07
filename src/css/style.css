@@ -43,6 +43,10 @@ main {
 .container > header > .introduction > .description {
   font-size: 1.2rem;
 
+  width: 90%;
+
+  margin: auto;
+
   line-height: 2rem;
 
   margin-top: 1rem;
