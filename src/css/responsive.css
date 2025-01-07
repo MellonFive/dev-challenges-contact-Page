@@ -22,9 +22,9 @@
   }
 
   .container > form {
-    padding: 2rem 3rem;
-    
     width: 100%;
+
+    margin-top: 2rem;
   }
 
   .container > form > .name-email-company-employers {
