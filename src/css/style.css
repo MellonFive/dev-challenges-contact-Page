@@ -110,7 +110,7 @@ main {
 }
 
 .container > form > .box-text {
-  height: 15rem;
+  height: 20rem;
 
   padding: 2rem;
 
@@ -143,6 +143,6 @@ main {
 
 .container > form > button:hover {
   background-color: var(--strong-purple);
-  
+
   color: var(--white);
 }
