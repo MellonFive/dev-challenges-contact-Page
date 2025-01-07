@@ -143,5 +143,6 @@ main {
 
 .container > form > button:hover {
   background-color: var(--strong-purple);
+  
   color: var(--white);
 }
