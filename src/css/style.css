@@ -13,7 +13,11 @@ body * {
 }
 
 main {
-  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 4rem;
 }
 
 .container {
