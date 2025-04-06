@@ -27,11 +27,11 @@ Contact Page é uma página de formulário, voltado para contratar pessoas para 
   <img alt="projeto DevLinks" src=".github/Preview.gif" width="100%">
 </p>
 
+## Mobile
+
 <p align="center">
   <img alt="projeto DevLinks" src=".github/Preview-mobile.gif" width="100%">
 </p>
-
-## Mobile
 
 <div align="center">
   <p style="font-size: 20px"><a href="https://dev-challenges-contact-page-lime.vercel.app/" target="_blank">Clique para</a> acessar o link</a>
