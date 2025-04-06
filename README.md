@@ -1,21 +1,37 @@
-<h1 align="center">Interested in our business pricing?</h1>
+<h1 align="center">Contact Page</h1>
 
 <p align="center">
-  Projeto da <a href="https://devchallenges.io/challenge/contact-page">Dev Challanges</a>. Para praticar Front-End
+  Projeto da Dev Challenges para praticar conhecimentos em HTML e CSS.
+</p>
+
+<p align="center">
+  <img src=".github/preview.png">
 </p>
 
 <br>
-
-<p align="center">
-  <img alt="" src="./.github/Preview.png" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS com responsividade
+- HTML e CSS
+- Git Github
 
 ## 💻 Projeto
 
-Projeto para entrar nos conceitos de Front-End e desenvolvimento web.
+Contact Page é uma página de formulário, voltado para contratar pessoas para trabalhar.
+
+## Como ficou o projeto online
+
+<p align="center">
+  <img alt="projeto DevLinks" src=".github/Preview.gif" width="100%">
+</p>
+
+<div align="center">
+  <p style="font-size: 20px"><a href="https://dev-challenges-contact-page-lime.vercel.app/" target="_blank">Clique para</a> acessar o link</a>
+  </p>
+</div>
+
+## Conclusão
+
+Projeto bom para praticar formulário e saber mais sobre a hierarquia do HTML na hora de saber construir um bom CSS.
