@@ -27,7 +27,7 @@ Contact Page é uma página de formulário, voltado para contratar pessoas para 
   <img alt="projeto DevLinks" src=".github/Preview.gif" width="100%">
 </p>
 
-## Mobile
+## 📱 Mobile
 
 <p align="center">
   <img alt="projeto DevLinks" src=".github/Preview-mobile.gif" width="100%">
